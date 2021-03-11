@@ -7,7 +7,6 @@ import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { UserComponent } from './user/user.component';
 import { AdminComponent } from './admin/admin.component';
-import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { HelloComponent } from './hello/hello.component';
 
 @NgModule({
@@ -17,7 +16,6 @@ import { HelloComponent } from './hello/hello.component';
     HeaderComponent,
     UserComponent,
     AdminComponent,
-    EmployeeListComponent,
     HelloComponent,
     
   ],
