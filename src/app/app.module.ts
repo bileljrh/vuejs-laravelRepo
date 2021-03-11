@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { RouterModule } from '@angular/router'
 import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { UserComponent } from './user/user.component';
 import { AdminComponent } from './admin/admin.component';
+import { EmployeeListComponent } from './employee-list/employee-list.component';
+import { HelloComponent } from './hello/hello.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,16 @@ import { AdminComponent } from './admin/admin.component';
     FooterComponent,
     HeaderComponent,
     UserComponent,
-    AdminComponent
+    AdminComponent,
+    EmployeeListComponent,
+    HelloComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

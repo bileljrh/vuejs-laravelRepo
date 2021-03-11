@@ -6,11 +6,11 @@ import {UserComponent} from './user/user.component'
 
 const routes: Routes =[
   {
-    path:'user',
+    path:'users',
     component:UserComponent
   },
   {
-    path:'admin',
+    path:'admins',
     component:AdminComponent
   }
 ];
@@ -19,7 +19,7 @@ const routes: Routes =[
   declarations: [],
   imports: [
     CommonModule,
-    
+    RouterModule
   ]
 })
 export class AppRoutingModule { }
