@@ -8,6 +8,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { UserComponent } from './user/user.component';
 import { AdminComponent } from './admin/admin.component';
 import { HelloComponent } from './hello/hello.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { HelloComponent } from './hello/hello.component';
     UserComponent,
     AdminComponent,
     HelloComponent,
+    LoginComponent,
+    RegisterComponent,
     
   ],
   imports: [
