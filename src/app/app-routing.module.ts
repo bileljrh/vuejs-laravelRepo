@@ -16,11 +16,11 @@ const routes: Routes =[
   },
   {
     path:'login',
-    component:AdminComponent
+    component:LoginComponent
   },
   {
     path:'register',
-    component:AdminComponent
+    component:RegisterComponent
   }
 ];
 
